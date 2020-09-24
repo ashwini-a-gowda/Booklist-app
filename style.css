@@ -1,0 +1,80 @@
+.container{
+  display: grid;
+  grid-template-columns: 70%;
+   grid-column-gap: 1em ;
+  
+   grid-gap: 1em ;
+   margin-left: 300px;
+   margin-top: 80px;
+  
+}
+
+.form{
+  font-size: 18px;
+}
+
+.box{
+  
+  padding: 1em; 
+  background: #e5ccef;
+  
+}
+input[type=text] {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+ border-radius: 10px; 
+box-sizing: border-box; 
+
+}
+
+input[type=submit] {
+width: 100%;
+background-color: black;
+color: white; 
+padding: 14px 20px;
+margin: 5px 0;
+font-size: 18px;
+border-radius: 18px; 
+
+}
+
+
+#booklist {
+font-family:  'Times New Roman', Times, serif;
+width: 100%;
+font-size: 18px;
+background: #e5ccef;
+}
+#booklist th {
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: center;
+background-color: palevioletred;
+color: black;
+}
+#booklist td {
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: center;
+background-color: white;
+color: black;
+border: 1.4px solid black;
+padding: 8px;
+border-radius: 4px;
+box-sizing: border-box; 
+}
+
+.editbtn{
+  font-size:25px;
+  color:blue;
+  
+}
+
+.deletebtn{
+  font-size:25px;
+  color:red;
+  /* position: relative;
+  left: 100%;
+  margin-bottom: 300px; */
+}

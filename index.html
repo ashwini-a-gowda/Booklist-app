@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book List</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+      <div class="box">
+        <form class="form">
+            <label for="bname">Book Name:</label>
+            <input type="text" id="bname"  placeholder="Enter your book name"><br></br>
+        
+            <label for="aname">Author Name:</label>
+            <input type="text" id="aname" placeholder="Enter the autor name"><br></br>
+        
+            <label for="cost">Price (In Rs):</label>
+            <input type="text" id="cost" placeholder="Enter the price"><br></br>        
+          
+            <input class= "sub" type="submit" value="Submit">
+          </form>
+      </div>
+      <div class="box1" id = "list">
+        <table id="booklist">
+            <tr>
+              <th>Book Name</th>
+              <th>Author Name</th>
+              <th>Price (In Rs)</th>
+              <th>Edit/Delete</th>
+            </tr>
+           
+            <!-- <button class="editbtn">
+              <i class="fa fa-edit"></i>
+            </button>
+            
+            <button class="deletebtn">
+             <i class="fa fa-trash"></i>
+            </button>
+           -->
+      </div>      
+          
+    </div>
+  <script src="app.js" ></script>      
+</body>
+</body>
+</html>
